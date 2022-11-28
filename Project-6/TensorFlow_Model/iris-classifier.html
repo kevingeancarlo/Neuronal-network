@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+
+    <title>Clasificador de IRIS  usando Tensorflow.js</title>
+</head>
+
+<body>
+
+    <h1>Clasificador de IRIS  usando Tensorflow.js</h1>
+    
+    <div>
+        <button type="button" onclick="load_data()">Predicción del modelo de red neuronal</button>
+    </div>
+    
+    <div id="wrapper">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <!-- <div id="wrapper">
+        <canvas id="myChart2"></canvas>
+    </div> -->
+
+    <div id="wrapper">
+        <canvas id="myChart3"></canvas>
+    </div>
+
+    <!-- <div id="wrapper">
+        <canvas id="myChart4"></canvas>
+    </div> -->
+
+    <div id="wrapper">
+        <canvas id="grafica"></canvas>
+    </div>
+
+</body>
+
+<!-- loads chart.js, d3 and visualization-->
+    <script src="libs/d3.v6.min.js"></script>
+    <script src="libs/chart.min.js"></script>
+    <script src="sketch.js"></script>
+<!-- load model-->
+    <script  src="./Scripts/app.js"></script>
+</html>
